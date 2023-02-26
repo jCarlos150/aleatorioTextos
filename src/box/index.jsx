@@ -37,7 +37,7 @@ const Box = () => {
       </div>
       <div className="bts">
          <div className={"icons"}>
-           <a id="tweet-quote" target="_blank" href="https://twitter.com/FrasesDeJess2"><AiFillTwitterSquare className={"icon"} style={{color: color}}  id="tweet-quote"/></a>
+           <a id="tweet-quote" target="_blank" href="https://twitter.com/intent/tweet"><AiFillTwitterSquare className={"icon"} style={{color: color}}/></a>
            <AiFillBehanceSquare className={"icon"} style={{color: color}} id="fb-quote"/>
          </div>
          <button id={"new-quote"} style={{backgroundColor:color}} onClick={handleFrase}>New quote</button>
