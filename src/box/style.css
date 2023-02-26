@@ -1,0 +1,55 @@
+#quote-box {
+   min-height: 200px;
+   display: flex;
+   flex-direction: column;
+   row-gap: 1rem;
+   align-items: center;
+   justify-content: center;
+   padding: 1% 2%;
+   width: 450px;
+   border-radius: 0.5%;
+   background-color: #ffff;
+  
+}
+.tts{
+    width: 100%;
+}
+#text {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#author{
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400
+}
+.bts{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.icon {
+    font-size: 35px;
+}
+#new-quote{
+    height: 35px;
+    border: none;
+    padding: 5px 10px;
+    color: #ffff;
+}
+
+#new-quote:hover, #tweet-quote:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.5s ease;
+}
+#text {
+    font-size: 30px;
+}
+
+@media (max-width: 600px) {
+    #quote-box {
+        width: 95%
+    };
+}
